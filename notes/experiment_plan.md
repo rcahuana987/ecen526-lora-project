@@ -2,19 +2,18 @@
 
 ## Hardware setup
 - RX board stays with laptop
-- TX board runs from power bank
+- TX board runs from a power bank
 - RX logs CSV over USB serial
 - TX only needs power once flashed
 
 ## Common defaults
 - Frequency: 915 MHz
-- BW: 125 kHz
-- CR: 4/5
-- Power: 14 dBm
+- Bandwidth: 125 kHz
+- Coding rate: 4/5
+- TX power: 14 dBm
 - Payload: 20 bytes
 - Packet rate: 5 packets/sec
 - RX port: COM7
-- TX powered by power bank during tests
 
 ## Command format
 Run commands from the project root:
@@ -23,7 +22,7 @@ Run commands from the project root:
 powershell -ExecutionPolicy Bypass -File scripts\<script_name>.ps1
 ```
 
-If you need to override the RX serial port, use:
+Override the RX serial port if needed:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts\<script_name>.ps1 -RxPort COM7
@@ -34,44 +33,15 @@ powershell -ExecutionPolicy Bypass -File scripts\<script_name>.ps1 -RxPort COM7
 - hallway, 10 m, LOS, SF7, 30 sec
 
 Status:
-- already completed
+- completed
 
-## Part 2
-- dropped from scope
-
-## Part 3 - Obstacle tests
-- LOS, SF7, 60 sec
-- 1 wall, SF7, 60 sec
-- corner, SF7, 60 sec
-
-Commands for each experiment:
+Commands:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts\run_test_03_obstacle_los.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_03_obstacle_1wall.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_03_obstacle_corner.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_01_bringup.ps1
 ```
 
-Command for whole phase:
-
-123456789101112131415161718192021222324252627282930
-#include <heltec_unofficial.h>
-
-// ===================== USER SETTINGS =====================
-float LORA_FREQ_MHZ = 915.0;   // 915.0 for US, 868.0 for EU
-int LORA_SF = 12;
-float LORA_BW_KHZ = 125.0;
-int LORA_CR = 5;               // 5 = 4/5
-int LORA_TX_POWER = 14;
-int LORA_PREAMBLE = 8;
-unsigned long TX_INTERVAL_MS = 200;   // 5 packets/sec
-
-
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts\run_test_03_obstacles_sf7.ps1
-```
-
-## Part 4 - SF tradeoff
+## Part 2 - SF tradeoff
 Run long-range comparisons with 45-second tests:
 - 1 mile obstacle, SF7
 - 1 mile obstacle repeat, SF7
@@ -88,24 +58,27 @@ What this covers:
 - repeatability at 1 mile obstacle
 - harder-link comparison between 1 mile and 2 miles obstacle
 
+Status:
+- completed
+
 Commands for each experiment:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf7_1mile_obstacle.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf7_1mile_obstacle_repeat.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf7_2mile_obstacle.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf10_1mile_obstacle.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf10_1mile_obstacle_repeat.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf10_2mile_obstacle.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf12_1mile_obstacle.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf12_1mile_obstacle_repeat.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf12_2mile_obstacle.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf7_1mile_obstacle.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf7_1mile_obstacle_repeat.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf7_2mile_obstacle.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf10_1mile_obstacle.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf10_1mile_obstacle_repeat.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf10_2mile_obstacle.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf12_1mile_obstacle.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf12_1mile_obstacle_repeat.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf12_2mile_obstacle.ps1
 ```
 
-Command for whole phase:
+Command for the whole phase:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts\run_test_04_sf_tradeoff.ps1
+powershell -ExecutionPolicy Bypass -File scripts\run_test_02_sf_tradeoff.ps1
 ```
 
 Important:

@@ -1,0 +1,27 @@
+time_ms,seq,payload_len,sf,bw_khz,cr,tx_power_dbm,rssi_dbm,snr_db,received_total,missed_total,pc_timestamp,test_name,location,distance_m,condition,notes
+6315,1167,20,12,125.00,5,14,-124.00,-19.50,1,0,2026-04-21T23:34:17,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+7643,1168,20,12,125.00,5,14,-120.00,-16.25,2,0,2026-04-21T23:34:18,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+8971,1169,20,12,125.00,5,14,-119.00,-15.00,3,0,2026-04-21T23:34:20,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+10299,1170,20,12,125.00,5,14,-120.00,-14.50,4,0,2026-04-21T23:34:21,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+14284,1173,20,12,125.00,5,14,-121.00,-15.75,5,2,2026-04-21T23:34:25,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+15612,1174,20,12,125.00,5,14,-120.00,-14.25,6,2,2026-04-21T23:34:26,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+16940,1175,20,12,125.00,5,14,-121.00,-15.25,7,2,2026-04-21T23:34:28,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+18269,1176,20,12,125.00,5,14,-121.00,-16.25,8,2,2026-04-21T23:34:29,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+19597,1177,20,12,125.00,5,14,-118.00,-14.75,9,2,2026-04-21T23:34:30,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+20925,1178,20,12,125.00,5,14,-119.00,-15.50,10,2,2026-04-21T23:34:32,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+22253,1179,20,12,125.00,5,14,-120.00,-16.25,11,2,2026-04-21T23:34:33,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+23582,1180,20,12,125.00,5,14,-120.00,-16.75,12,2,2026-04-21T23:34:34,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+24910,1181,20,12,125.00,5,14,-121.00,-16.75,13,2,2026-04-21T23:34:36,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+26238,1182,20,12,125.00,5,14,-121.00,-16.00,14,2,2026-04-21T23:34:37,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+28895,1184,20,12,125.00,5,14,-119.00,-15.25,15,3,2026-04-21T23:34:40,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+30223,1185,20,12,125.00,5,14,-119.00,-16.25,16,3,2026-04-21T23:34:41,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+31551,1186,20,12,125.00,5,14,-119.00,-14.50,17,3,2026-04-21T23:34:42,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+32879,1187,20,12,125.00,5,14,-118.00,-14.25,18,3,2026-04-21T23:34:43,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+34208,1188,20,12,125.00,5,14,-118.00,-13.25,19,3,2026-04-21T23:34:45,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+35536,1189,20,12,125.00,5,14,-118.00,-15.75,20,3,2026-04-21T23:34:46,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+36864,1190,20,12,125.00,5,14,-118.00,-14.75,21,3,2026-04-21T23:34:47,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+38192,1191,20,12,125.00,5,14,-117.00,-13.25,22,3,2026-04-21T23:34:49,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+39521,1192,20,12,125.00,5,14,-117.00,-13.25,23,3,2026-04-21T23:34:50,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+40849,1193,20,12,125.00,5,14,-118.00,-15.00,24,3,2026-04-21T23:34:51,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+43505,1195,20,12,125.00,5,14,-118.00,-14.50,25,4,2026-04-21T23:34:54,02_sftrade_2mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF12 tradeoff
+

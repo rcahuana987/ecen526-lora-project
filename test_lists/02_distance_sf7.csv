@@ -1,3 +1,0 @@
-test_name,phase_folder,location,distance_m,condition,duration_s
-02_distance_obstacle_1mile_sf12_bw125_cr45_p14_run1,02_distance_sweep,longrange,1609,obstacle,60
-02_distance_obstacle_2mile_sf12_bw125_cr45_p14_run1,02_distance_sweep,longrange,3219,obstacle,60

@@ -1,0 +1,8 @@
+time_ms,seq,payload_len,sf,bw_khz,cr,tx_power_dbm,rssi_dbm,snr_db,received_total,missed_total,pc_timestamp,test_name,location,distance_m,condition,notes
+39541,1210,20,10,125.00,5,14,-111.00,-16.75,1,0,2026-04-21T23:48:54,02_sftrade_2mile_obstacle_sf10_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF10 tradeoff
+40301,1212,20,10,125.00,5,14,-112.00,-18.25,2,1,2026-04-21T23:48:55,02_sftrade_2mile_obstacle_sf10_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF10 tradeoff
+43721,1221,20,10,125.00,5,14,-111.00,-16.75,3,9,2026-04-21T23:48:58,02_sftrade_2mile_obstacle_sf10_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF10 tradeoff
+44102,1222,20,10,125.00,5,14,-111.00,-17.25,4,9,2026-04-21T23:48:58,02_sftrade_2mile_obstacle_sf10_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF10 tradeoff
+44482,1223,20,10,125.00,5,14,-112.00,-18.00,5,9,2026-04-21T23:48:59,02_sftrade_2mile_obstacle_sf10_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF10 tradeoff
+44862,1224,20,10,125.00,5,14,-111.00,-16.75,6,9,2026-04-21T23:48:59,02_sftrade_2mile_obstacle_sf10_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF10 tradeoff
+

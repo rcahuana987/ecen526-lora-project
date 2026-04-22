@@ -1,0 +1,34 @@
+time_ms,seq,payload_len,sf,bw_khz,cr,tx_power_dbm,rssi_dbm,snr_db,received_total,missed_total,pc_timestamp,test_name,location,distance_m,condition,notes
+3111,290,20,12,125.00,5,14,-104.00,-8.25,1,0,2026-04-21T23:14:52,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+4439,291,20,12,125.00,5,14,-105.00,-8.50,2,0,2026-04-21T23:14:53,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+5767,292,20,12,125.00,5,14,-105.00,-7.00,3,0,2026-04-21T23:14:55,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+7095,293,20,12,125.00,5,14,-103.00,-5.00,4,0,2026-04-21T23:14:56,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+8423,294,20,12,125.00,5,14,-103.00,-4.75,5,0,2026-04-21T23:14:57,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+9752,295,20,12,125.00,5,14,-103.00,-5.00,6,0,2026-04-21T23:14:59,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+11080,296,20,12,125.00,5,14,-103.00,-5.50,7,0,2026-04-21T23:15:00,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+12408,297,20,12,125.00,5,14,-103.00,-5.00,8,0,2026-04-21T23:15:01,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+13736,298,20,12,125.00,5,14,-102.00,-4.75,9,0,2026-04-21T23:15:03,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+15064,299,20,12,125.00,5,14,-102.00,-4.25,10,0,2026-04-21T23:15:04,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+16393,300,20,12,125.00,5,14,-102.00,-4.50,11,0,2026-04-21T23:15:05,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+17721,301,20,12,125.00,5,14,-103.00,-4.75,12,0,2026-04-21T23:15:07,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+19049,302,20,12,125.00,5,14,-101.00,-3.75,13,0,2026-04-21T23:15:08,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+20377,303,20,12,125.00,5,14,-101.00,-3.00,14,0,2026-04-21T23:15:09,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+21705,304,20,12,125.00,5,14,-101.00,-3.25,15,0,2026-04-21T23:15:11,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+23034,305,20,12,125.00,5,14,-102.00,-3.50,16,0,2026-04-21T23:15:12,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+24362,306,20,12,125.00,5,14,-101.00,-3.25,17,0,2026-04-21T23:15:13,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+25690,307,20,12,125.00,5,14,-101.00,-2.50,18,0,2026-04-21T23:15:15,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+27018,308,20,12,125.00,5,14,-100.00,-2.25,19,0,2026-04-21T23:15:16,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+28347,309,20,12,125.00,5,14,-102.00,-4.50,20,0,2026-04-21T23:15:17,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+29675,310,20,12,125.00,5,14,-109.00,-11.50,21,0,2026-04-21T23:15:19,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+31003,311,20,12,125.00,5,14,-108.00,-9.50,22,0,2026-04-21T23:15:20,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+32331,312,20,12,125.00,5,14,-105.00,-8.25,23,0,2026-04-21T23:15:21,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+33660,313,20,12,125.00,5,14,-104.00,-8.00,24,0,2026-04-21T23:15:23,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+34988,314,20,12,125.00,5,14,-101.00,-5.25,25,0,2026-04-21T23:15:24,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+36316,315,20,12,125.00,5,14,-101.00,-5.50,26,0,2026-04-21T23:15:25,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+37644,316,20,12,125.00,5,14,-101.00,-5.00,27,0,2026-04-21T23:15:27,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+38972,317,20,12,125.00,5,14,-103.00,-7.00,28,0,2026-04-21T23:15:28,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+40301,318,20,12,125.00,5,14,-104.00,-8.00,29,0,2026-04-21T23:15:29,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+41629,319,20,12,125.00,5,14,-106.00,-8.75,30,0,2026-04-21T23:15:31,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+42957,320,20,12,125.00,5,14,-103.00,-6.50,31,0,2026-04-21T23:15:32,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+44285,321,20,12,125.00,5,14,-103.00,-6.50,32,0,2026-04-21T23:15:33,02_sftrade_1mile_obstacle_sf12_bw125_cr45_p14_run1,longrange,1609,obstacle,1 mile obstacle SF12 tradeoff
+

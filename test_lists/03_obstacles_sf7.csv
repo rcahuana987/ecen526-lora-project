@@ -1,4 +1,0 @@
-test_name,phase_folder,location,distance_m,condition,duration_s
-03_obstacle_los_sf7_bw125_cr45_p14_run1,03_obstacle_tests,hallway,10,LOS,60
-03_obstacle_1wall_sf7_bw125_cr45_p14_run1,03_obstacle_tests,hallway,10,1wall,60
-03_obstacle_corner_sf7_bw125_cr45_p14_run1,03_obstacle_tests,hallway,10,corner,60

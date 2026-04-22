@@ -47,10 +47,6 @@ The summary pipeline computes:
 
 The report source is in `report/final_report.tex`.
 
-Before submission, update:
-
-- the author line if the project has more than one author
-
 ## Notes
 
 - The repository was cleaned to keep only completed phases with real logged data.

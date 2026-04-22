@@ -1,0 +1,4 @@
+time_ms,seq,payload_len,sf,bw_khz,cr,tx_power_dbm,rssi_dbm,snr_db,received_total,missed_total,pc_timestamp,test_name,location,distance_m,condition,notes
+813,2284,20,7,125.00,5,14,-116.00,-6.75,1,0,2026-04-22T00:07:40,04_sftrade_2mile_obstacle_sf7_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF7 tradeoff
+1213,2286,20,7,125.00,5,14,-113.00,-7.00,2,1,2026-04-22T00:07:41,04_sftrade_2mile_obstacle_sf7_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF7 tradeoff
+1613,2288,20,7,125.00,5,14,-115.00,-8.50,3,2,2026-04-22T00:07:41,04_sftrade_2mile_obstacle_sf7_bw125_cr45_p14_run1,longrange,3219,obstacle,2 mile obstacle SF7 tradeoff

@@ -1,0 +1,3 @@
+test_name,phase_folder,location,distance_m,condition,duration_s
+01_bringup_desk_2m_los_sf7_bw125_cr45_p14_run1,01_bringup,desk,2,LOS,30
+01_bringup_hallway_10m_los_sf7_bw125_cr45_p14_run1,01_bringup,hallway,10,LOS,30

@@ -23,12 +23,12 @@ The testbed uses one LoRa transmitter and one LoRa receiver implemented on Helte
 
 The transmitter embeds a sequence number in every payload. The receiver logs each decoded packet together with RSSI, SNR, packet length, and timing metadata. Offline scripts summarize each CSV trace into PRR, estimated missed packets, average goodput, PHY bitrate, airtime, channel occupancy, burst-loss statistics, and inter-arrival jitter. This made it possible to compare not only whether a link worked, but also how gracefully it failed when the path degraded.
 
-We used three experiment groups in the final report. First, bring-up tests at 2~m and 10~m line-of-sight verified that the hardware and logging chain worked correctly. Second, long-range obstructed tests at roughly 1 mile compared SF7, SF10, and SF12, including repeats to assess stability. Third, a harder 2-mile obstructed path evaluated whether the same settings remained usable. Short accidental captures were retained in the repository for completeness, but the discussion below emphasizes the longer runs that lasted tens of seconds and therefore better represent sustained link behavior.
+We used two completed experiment phases in the final report. First, bring-up tests at 2~m and 10~m line-of-sight verified that the hardware and logging chain worked correctly. Second, long-range obstructed tests at roughly 1 mile and 2 miles compared SF7, SF10, and SF12, including repeats to assess stability. Short accidental captures were retained in the repository for completeness, but the discussion below emphasizes the longer runs that lasted tens of seconds and therefore better represent sustained link behavior.
 
 \subsection*{Implementation}
 The firmware consists of a transmitter sketch and a receiver sketch, with separate builds for SF7, SF10, and SF12. The transmitter sends fixed-size packets containing a monotonically increasing sequence number. The receiver decodes each packet, estimates missing sequence numbers, and streams CSV-formatted records over serial. This design avoids putting analysis logic on the radio node and keeps the on-device software simple.
 
-The host-side tooling automates the rest of the workflow. PowerShell scripts launch each experiment, save the raw CSV logs under the appropriate \texttt{data/} subdirectory, and run analysis scripts that generate summary tables and plots under \texttt{results/}. The submitted code artifact is the accompanying repository used for this report; the firmware is under \texttt{firmware/} and the logging and analysis scripts are under \texttt{scripts/}. Code available at: \url{<INSERT_GITHUB_REPO_URL_HERE>}. No code is reproduced in this paper, consistent with the course instructions.
+The host-side tooling automates the rest of the workflow. PowerShell scripts launch each experiment, save the raw CSV logs under the appropriate \texttt{data/} subdirectory, and run analysis scripts that generate summary tables and plots under \texttt{results/}. The submitted code artifact is the accompanying repository used for this report; the firmware is under \texttt{firmware/} and the logging and analysis scripts are under \texttt{scripts/}. Code available at: \url{https://github.com/rcahuana987/ecen526-lora-project}. No code is reproduced in this paper, consistent with the course instructions.
 
 \subsection*{Experimentation}
 The bring-up phase established a clean baseline. At both 2~m and 10~m line-of-sight using SF7, the link achieved PRR~=~1.00, mean RSSI near $-14.5$~dBm, mean SNR about 12.3--12.4~dB, and goodput near 100.7~B/s. That gave confidence that later losses came from the channel and geometry rather than from basic implementation errors.
@@ -89,4 +89,3 @@ Future work could extend the study in three directions. First, the dataset shoul
 \end{enumerate}
 
 \end{document}
-

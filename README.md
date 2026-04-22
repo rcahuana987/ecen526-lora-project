@@ -49,8 +49,7 @@ The report source is in `report/final_report.tex`.
 
 Before submission, update:
 
-- the author line
-- the GitHub repository URL placeholder inside the report
+- the author line if the project has more than one author
 
 ## Notes
 
